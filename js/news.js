@@ -13,5 +13,7 @@ fetch(proxyurl + "https://sgs-website-server.pouekdev.repl.co")
             document.getElementById("yttitle").innerHTML = body.youtubetext;
             document.getElementById("ytvideo").src = body.ytvideolink;
             document.getElementById("done").style.display = "none";
+            document.getElementById("donee").style.display = "none";
+            document.getElementById("doneee").style.display = "none";
         }
     })
