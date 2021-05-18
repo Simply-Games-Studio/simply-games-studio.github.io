@@ -5,6 +5,9 @@ fetch(proxyurl + "https://sgs-website-server.pouekdev.repl.co")
             console.log("Error");
         }
         else{
+            document.getElementById("done").style.display = "none";
+            document.getElementById("donee").style.display = "none";
+            document.getElementById("doneee").style.display = "none";
             document.getElementById("importantnewstext").innerHTML = body.news;
             document.getElementById("importantnewsimage").src = body.newsicon;
             document.getElementById("newestgametext").innerHTML = body.newgametext;
@@ -12,8 +15,5 @@ fetch(proxyurl + "https://sgs-website-server.pouekdev.repl.co")
             document.getElementById("newestgameimg").setAttribute('onclick',"window.location.href='" + body.newgamelink + "'")
             document.getElementById("yttitle").innerHTML = body.youtubetext;
             document.getElementById("ytvideo").src = body.ytvideolink;
-            document.getElementById("done").style.display = "none";
-            document.getElementById("donee").style.display = "none";
-            document.getElementById("doneee").style.display = "none";
         }
     })
