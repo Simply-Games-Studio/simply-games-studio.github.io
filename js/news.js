@@ -6,8 +6,6 @@ fetch(proxyurl + "https://sgs-website-server.pouekdev.repl.co")
         }
         else{
             document.getElementById("done").style.display = "none";
-            document.getElementById("donee").style.display = "none";
-            document.getElementById("doneee").style.display = "none";
             document.getElementById("importantnewstext").innerHTML = body.news;
             document.getElementById("importantnewsimage").src = body.newsicon;
             document.getElementById("newestgametext").innerHTML = body.newgametext;
