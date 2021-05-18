@@ -12,5 +12,6 @@ fetch(proxyurl + "https://sgs-website-server.pouekdev.repl.co")
             document.getElementById("newestgameimg").setAttribute('onclick',"window.location.href='" + body.newgamelink + "'")
             document.getElementById("yttitle").innerHTML = body.youtubetext;
             document.getElementById("ytvideo").src = body.ytvideolink;
+            document.getElementById("done").style.display = "none";
         }
     })
