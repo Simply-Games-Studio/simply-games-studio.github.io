@@ -109,44 +109,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Simply Games Studio</title>
+    <title>Launcher - Simply Games Studio</title>
     <link rel="icon" href="imagedatabase/logo.png">
 </head>
 <body style="background-color:#070707;" text="#ffffff">
-  <div class="loader" id="loader"></div>
+    <div class="loader" id="loader"></div>
     <div class="all" id="all">
     <h1><p style="text-align:center;"><img src="imagedatabase/logo.png" alt="icon"></p>
-    <p style="text-align: center;">HOME</p>
+    <p style="text-align: center;">Launcher</p>
     <div class="container main">
         <button class="buttons button2" onclick="window.location.href='./games.html'"><big>Games</big></button>
-        <button class="buttons button2" onclick="window.location.href='./launcher.html'"><big>Launcher</big></button>
-        <button class="buttonspressed button1" onclick=""><big>News</big></button>
+        <button class="buttonspressed button1" onclick=""><big>Launcher</big></button>
+        <button class="buttons button2" onclick="window.location.href='./index.html'"><big>News</big></button>
         <button class="buttons button2" onclick="window.location.href='./contact.html'"><big>Contact</big></button>
     </div>
     <br>
+    <p style="text-align: center;"><img src="imagedatabase/launcher.png"></p>
+    <br>
     <div class="main">
-        📣NEWS📣
-        <br>
-        <div class="things">
-            ⚠️Important⚠️
-            <img id="importantnewsimage" src="imagedatabase/servererror.gif">
-            <p style="text-align: center;" id="importantnewstext">Error: Can not connect to servers</p>
-        </div>
-        <br>
-        <div class="things">
-            🎮Newest Game🎮
-            <p style="text-align:center;"><input type="image" id="newestgameimg" src="imagedatabase/servererror.gif" onclick="window.location.href='./bots.html'"></p>
-            <p style="text-align: center;" id="newestgametext">Error: Can not connect to servers</p>
-        </div>
-        <br>
-        <div class="things">
-            🎥Newest YouTube Video
-            <iframe id="ytvideo" width="500" height="320" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p style="text-align: center;" id="yttitle">Error: Can not connect to servers</p>
-        </div>
+        <p style="text-align: center;">Download</p>
+        <button class="buttons button2" onclick=""><big>Coming soon</big></button>
     </div>
 </div>
 </body>
-<script src="js/news.js"></script>
 <script src="js/loader.js"></script>
 </html>
